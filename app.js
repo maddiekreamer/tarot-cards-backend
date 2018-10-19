@@ -12,6 +12,12 @@ app.get("/", (request, response) => {
     }))
 })
 
+app.post("/", (request, response) => {
+    queries.listAll(request.body).then(result => response.json({
+        result
+    }))
+})
+
 app.listen(port, () => {
     console.log(`listening on ${port}`)
 })
