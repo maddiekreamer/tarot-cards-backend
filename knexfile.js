@@ -6,7 +6,6 @@ module.exports = {
     client: 'pg',
     connection: 'postgresql://localhost/tarot-cards-information'
   },
-
   production: {
     client: 'pg',
     connection: 'process.env.DATABASE_URL'
