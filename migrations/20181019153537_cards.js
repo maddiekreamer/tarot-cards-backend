@@ -5,7 +5,7 @@ exports.up = function(knex, Promise) {
         card.string('name')
         card.string('type')
         card.string('img')
-        card.string('desc')
+        card.text('desc')
   })
 };
 
