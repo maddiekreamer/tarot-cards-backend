@@ -4,7 +4,7 @@ module.exports = {
 
   development: {
     client: 'pg',
-    connection: 'postgresql://localhost/tarot-cards-information'
+    connection: 'postgresql://localhost/tarot-card-information'
   },
   production: {
     client: 'pg',
