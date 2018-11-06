@@ -292,12 +292,6 @@ exports.seed = function(knex, Promise) {
           desc: "A man of dejected aspect is deserting the cups of his felicity, enterprise, undertaking or previous concern."
           },
           {
-          name: "Nine of Cups",
-          type: "Minor",
-          img: "https://s3.amazonaws.com/tarot-cards-images/files/9-cups.jpg",
-          desc: "A goodly personage has feasted to his heart's content, and abundant refreshment of wine is on the arched counter behind him, seeming to indicate that the future is also assured. The picture offers the material side only, but there are other aspects."
-          },
-          {
           name: "Ten of Cups",
           type: "Minor",
           img: "https://s3.amazonaws.com/tarot-cards-images/files/10-cups.jpg",
@@ -320,12 +314,6 @@ exports.seed = function(knex, Promise) {
           type: "Minor",
           img: "https://s3.amazonaws.com/tarot-cards-images/files/queen-pentacles.jpg",
           desc: "The face suggests that of a dark woman, whose qualities might be summed up in the idea of greatness of soul; she has also the serious cast of intelligence; she contemplates her symbol and may see worlds therein."
-          },
-          {
-          name: "King of Pentacles",
-          type: "Minor",
-          img: "https://s3.amazonaws.com/tarot-cards-images/files/king-pentacles.jpg",
-          desc: "The figure calls for no special description the face is rather dark, suggesting also courage, but somewhat lethargic in tendency. The bull's head should be noted as a recurrent symbol on the throne. The sign of this suit is represented throughout as engraved or blazoned with the pentagram, typifying the correspondence of the four elements in human nature and that by which they may be governed. In many old Tarot packs this suit stood for current coin, money, deniers. I have not invented the substitution of pentacles and I have no special cause to sustain in respect of the alternative. But the consensus of divinatory meanings is on the side of some change, because the cards do not happen to deal especially with questions of money."
           },
           {
           name: "Ace of Pentacles",
@@ -442,12 +430,6 @@ exports.seed = function(knex, Promise) {
           desc: "A disdainful man looks after two retreating and dejected figures. Their swords lie upon the ground. He carries two others on his left shoulder, and a third sword is in his right hand, point to earth. He is the master in possession of the field."
           },
           {
-          name: "Six of Swords",
-          type: "Minor",
-          img: "https://s3.amazonaws.com/tarot-cards-images/files/6-swords.jpg",
-          desc: "A ferryman carrying passengers in his punt to the further shore. The course is smooth, and seeing that the freight is light, it may be noted that the work is not beyond his strength."
-          },
-          {
           name: "Seven of Swords",
           type: "Minor",
           img: "https://s3.amazonaws.com/tarot-cards-images/files/7-swords.jpg",
@@ -470,6 +452,24 @@ exports.seed = function(knex, Promise) {
           type: "Minor",
           img: "https://s3.amazonaws.com/tarot-cards-images/files/10-swords.jpg",
           desc: "A prostrate figure, pierced by all the swords belonging to the card."
+          },
+          {
+          name: "King of Pentacles",
+          type: "Minor",
+          img: "https://s3.amazonaws.com/tarot-cards-images/files/king-pentacles.jpg",
+          desc: "The figure calls for no special description the face is rather dark, suggesting also courage, but somewhat lethargic in tendency. The bull's head should be noted as a recurrent symbol on the throne. The sign of this suit is represented throughout as engraved or blazoned with the pentagram, typifying the correspondence of the four elements in human nature and that by which they may be governed. In many old Tarot packs this suit stood for current coin, money, deniers. I have not invented the substitution of pentacles and I have no special cause to sustain in respect of the alternative. But the consensus of divinatory meanings is on the side of some change, because the cards do not happen to deal especially with questions of money."
+          },
+          {
+          name: "Nine of Cups",
+          type: "Minor",
+          img: "https://s3.amazonaws.com/tarot-cards-images/files/9-cups.jpg",
+          desc: "A goodly personage has feasted to his heart's content, and abundant refreshment of wine is on the arched counter behind him, seeming to indicate that the future is also assured. The picture offers the material side only, but there are other aspects."
+          },
+          {
+          name: "Six of Swords",
+          type: "Minor",
+          img: "https://s3.amazonaws.com/tarot-cards-images/files/6-swords.jpg",
+          desc: "A ferryman carrying passengers in his punt to the further shore. The course is smooth, and seeing that the freight is light, it may be noted that the work is not beyond his strength."
           }
       ]);
     });
